@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="bootOn"
+        android:summaryOff="Start Service after reboot? No.."
+        android:summaryOn="Start Service after reboot? Yes.."
+        android:switchTextOff="Not"
+        android:switchTextOn="Yes" />
+    
+<EditTextPreference
+    android:key="INTERVAL"
+    android:title="Repeat time of traffic checking :"
+    android:summary="Set value of checking time (30 sec is recommended)"
+    android:defaultValue="30"
+    android:dialogTitle="Please set seconds (from 10 to 60 sec)" />
+
+<EditTextPreference
+    android:key="SizeToOff"
+    android:title="Set how much traffic we compare to:"
+    android:summary="Set amount traffic of checking  (50 kb is recommended)"
+    android:defaultValue="50"
+    android:dialogTitle="Please set kilotytes (from 30 to 1024 kb)" />
+
+    <ListPreference />
+    <RingtonePreference />
+    
+
+</PreferenceScreen>

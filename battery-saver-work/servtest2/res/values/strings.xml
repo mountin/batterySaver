@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battery Saver</string>
+    <string name="action_settings">Settrings</string>
+    <color name="background_color">#000000</color>
+    <color name="text_color">#a0a0a0</color>
+    <color name="white">#a0a0a0</color>
+    <string name="wifi_title">Wi-Fi</string>
+<string name="settings_title">Settings</string>
+
+
+</resources>
